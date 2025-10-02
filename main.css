@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.forbg
+{
+background-image: url(images/feature-section-2BG.svg);
+
+}
+
+.forlightningbg
+{
+    background-image: url(images/instant-settlement-bg.svg);
+    background-image:no-repeat;
+}
+
+.forlightningbg:hover
+{
+   background-image: url(images/instant-settlement-bghover.svg);
+}
+
+
+.forbluebg
+{
+    background-image: url(images/core-features-sectionBg.svg);    
+    
+}
+
+.companies
+{  
+    animation: companiesmoveup 40s linear 0s infinite ;
+}
+
+@keyframes  companiesmoveup 
+{
+ 0%
+ {
+    transform: translateY(1000px);
+ }   
+ 50%
+ {
+    transform: translateY(0px);
+ }
+ 100%
+ {
+    transform: translateY(1000px);
+ }
+}
+
+.forbluebglastsecondsection
+{
+   background-image: url(images/CTABg.svg);
+}
